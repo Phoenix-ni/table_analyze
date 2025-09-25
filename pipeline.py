@@ -3,7 +3,6 @@ import pandas as pd
 from ultralytics import YOLO
 from paddleocr import PaddleOCR
 import json
-import os
 import numpy as np
 
 # ========== Step 1. 提取线框 ==========
