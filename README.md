@@ -1,7 +1,7 @@
 # table_analyze
 
 # 实现流程
-![img][table_analyze.drawio.png]
+![img](table_analyze.drawio.png)
 # 实现思路
 ## **1. 表格还原阶段**
 
