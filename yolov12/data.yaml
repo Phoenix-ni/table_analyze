@@ -1,5 +1,5 @@
-train: /home/zyb/百度飞桨领航团/学习项目/CV项目/table_analyze/yolo/train # 训练集路径
-val: /home/zyb/百度飞桨领航团/学习项目/CV项目/table_analyze/yolo/val # 验证集路径
+train: yolo/train # 训练集路径
+val: yolo/val # 验证集路径
 
 nc: 1 # 类别数量
 names: ['cell'] # 类别名称
