@@ -144,8 +144,8 @@ names: ['cell']
 在 `pipeline_arg.py` 中配置你的 API 密钥：
 ```python
 client = OpenAI(
-    api_key="your-api-key",  # 替换为你的 API Key
-    base_url="https://api.longcat.chat/openai"
+    api_key="{your-api-key}",  # 替换为你的 API Key
+	base_url="{your_url}"
 )
 ```
 

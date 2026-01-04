@@ -213,7 +213,7 @@ def fill_excel_with_ocr_content(empty_excel_path, output_excel_path, grid_to_yol
 def ask_LLM(prompt: str):
     client = OpenAI(
         api_key="*****************************",  # 请在此处填写你的API Key
-        base_url="https://api.longcat.chat/openai"
+        base_url="******************************"  # 请在此处填写你的API地址（如果有的话）
     )
     response = client.chat.completions.create(
         model="LongCat-Flash-Chat",
